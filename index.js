@@ -21,10 +21,10 @@ $(document).ready(function(){
 
 // navbar toggle
 
-$('#nav-toggle').click(function(){
-    $(this).toggleClass('is-active')
-    $('ul.nav').toggleClass('show');
-});
+// $('#nav-toggle').click(function(){
+//     $(this).toggleClass('is-active')
+//     $('ul.nav').toggleClass('show');
+// });
 
 
 

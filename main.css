@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@import url("https://fonts.googleapis.com/css?family=Baloo+Paaji|Open+Sans:300,300i,400,400i,600,600i,700,700i");
+/* @import url("https://fonts.googleapis.com/css?family=Baloo+Paaji|Open+Sans:300,300i,400,400i,600,600i,700,700i");
 :root {
   --blue: #1e549f;
   --indigo: #695aa6;
@@ -28,10 +28,14 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: "Open Sans", sans-serif;
+  --font-family-sans-serif: Futura Book font.ttf;
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-}
+} */
 
+@font-face {
+  font-family:Futura;
+  src: url(fonts/Futura\ Book\ font.ttf);
+}
 *,
 *::before,
 *::after {
@@ -39,7 +43,7 @@
 }
 
 html {
-  font-family: "Playfair Display", serif;
+  font-family: Futura;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -51,7 +55,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Playfair Display", serif;
+  font-family: Futura;
   font-size: 1.7rem;
   font-weight: 400;
   line-height: 1.5;
@@ -11062,7 +11066,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
-  font-family:"Playfair Display", serif;
+  font-family:Futura;
   color: #695aa6;
 }
 
@@ -11614,7 +11618,7 @@ pre .code {
           align-items: center;
   -webkit-transition: all, 0.3s;
   transition: all, 0.3s;
-  font-family: "Playfair Display", serif;
+  font-family: Futura;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -12241,7 +12245,7 @@ pre .code {
 /* Base styles */
 body {
   margin: 0;
-  font-family:"Playfair Display", serif;
+  font-family:Futura;
 }
 
 .navbar {
