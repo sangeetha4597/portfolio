@@ -20,7 +20,22 @@ $(document).ready(function(){
 });
 
 // navbar toggle
+
 $('#nav-toggle').click(function(){
     $(this).toggleClass('is-active')
     $('ul.nav').toggleClass('show');
+});
+
+
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    const toggler = document.querySelector(".navbar-toggler");
+    const menu = document.querySelector(".navbar-menu");
+    const icon = document.querySelector(".navbar-toggler-icon");
+
+    toggler.addEventListener("click", function() {
+        menu.classList.toggle("active");
+        icon.classList.toggle("active");
+    });
 });
